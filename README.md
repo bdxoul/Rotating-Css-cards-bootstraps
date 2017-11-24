@@ -1,37 +1,65 @@
-## Welcome to GitHub Pages
+<div class="card-container">
+         <div class="card">
+             <div class="front">
+                 <div class="cover">
+                     <img src="images/rotating_card_thumb3.png"/>
+                 </div>
+                 <div class="user">
+                     <img class="img-circle" src="images/rotating_card_profile.png"/>
+                 </div>
+                 <div class="content">
+                     <div class="main">
+                         <h3 class="name">Inna Corman</h3>
+                         <p class="profession">Product Manager</p>
 
-You can use the [editor on GitHub](https://github.com/bdxoul/Rotating-Css-cards-bootstraps/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+                         <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                     </div>
+                     <div class="footer">
+                         <div class="rating">
+                             <i class="fa fa-mail-forward"></i> Auto Rotation
+                         </div>
+                     </div>
+                 </div>
+             </div> <!-- end front panel -->
+             <div class="back">
+                 <div class="header">
+                     <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                 </div>
+                 <div class="content">
+                     <div class="main">
+                         <h4 class="text-center">Job Description</h4>
+                         <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+                         <div class="stats-container">
+                             <div class="stats">
+                                 <h4>235</h4>
+                                 <p>
+                                     Followers
+                                 </p>
+                             </div>
+                             <div class="stats">
+                                 <h4>114</h4>
+                                 <p>
+                                     Following
+                                 </p>
+                             </div>
+                             <div class="stats">
+                                 <h4>35</h4>
+                                 <p>
+                                     Projects
+                                 </p>
+                             </div>
+                         </div>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bdxoul/Rotating-Css-cards-bootstraps/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+                     </div>
+                 </div>
+                 <div class="footer">
+                     <div class="social-links text-center">
+                         <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                         <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                         <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                     </div>
+                 </div>
+             </div> <!-- end back panel -->
+         </div> <!-- end card -->
+</div> <!-- end card-container -->
